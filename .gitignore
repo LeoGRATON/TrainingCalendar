@@ -1,0 +1,18 @@
+# Symfony
+symfony/vendor/
+symfony/var/
+symfony/public/build/
+symfony/.env.local
+symfony/.env.*.local
+symfony/config/jwt/
+
+# Front
+front/node_modules/
+front/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/

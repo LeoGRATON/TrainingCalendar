@@ -1,0 +1,8 @@
+_security_logout:
+    resource: security.route_loader.logout
+    type: service
+# Route écoutée par json_login dans security.yaml
+# Pas besoin de controller, Symfony la gère seul
+api_login:
+    path: /api/login
+    methods: [POST]
